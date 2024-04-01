@@ -1,0 +1,86 @@
+body {
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    background: linear-gradient(#a2d2ff, pink);
+    color: #ffffff;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #efb0c9;
+}
+
+h1, h2, h4{
+    text-shadow: 0px 0px 1px black;
+}
+
+#header{
+display:  flex;
+align-items: center;
+flex-direction: column;
+}
+#bday-age{
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#bday-date{
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+.gift-title {
+    margin-bottom: 10px;
+}
+.gift-hint {
+    margin-top: 0;
+}
+.gift-img{
+    width: 400px;
+    height: 400px;
+    border: 6px solid black;
+    border-radius: 10px;
+    /* background: linear-gradient(lightskyblue, white); */
+    background-image: url(https://i.pinimg.com/474x/4e/b5/38/4eb5389212dc7b22d9aad44a0d22dabf.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+#gift-img-happy:hover{
+    background-image: url(https://i.pinimg.com/474x/df/a1/e8/dfa1e899e5f1f821752941eec84f1bdc.jpg);
+}
+#gift-img-hot:hover{
+    background-image: url(https://i.pinimg.com/564x/27/77/b7/2777b7a5537371093bac201f3a1c8fed.jpg);
+}
+
+#gift-img-genius:hover{
+    background-image: url(https://i.pinimg.com/564x/7f/ff/45/7fff4581bf927300ee17cd02ef57b235.jpg);
+}
+
+#gift-img-badass:hover{
+    background-image: url(https://i.pinimg.com/474x/a6/bb/17/a6bb173910b4b56fabeed6d718df57fc.jpg);
+}
+#gift-img-cheers{
+    height: 200px;
+}
+#gift-img-cheers:hover{
+    background-image: url(https://i.pinimg.com/736x/00/d3/37/00d337a65dc4670624f098d53fac8727.jpg);
+}
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+a {
+    color: #ffffff;
+}
